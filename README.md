@@ -1,5 +1,5 @@
 # Site-Barbearia-Borcelle
-🚀 Novo Projeto: Site Moderno para Barbearia com Agendamento Inteligente! ✂️💈
+🚀 Site Moderno para Barbearia com Agendamento Inteligente! ✂️💈
 
 É com grande satisfação que compartilho meu mais recente projeto: um site completo para barbearia, desenvolvido com HTML, CSS, Bootstrap e JavaScript, trazendo uma experiência dinâmica e profissional tanto para os clientes quanto para os administradores.
 
@@ -30,5 +30,5 @@ Seção interativa onde, ao clicar no card do profissional, abre-se um modal com
 
 🔗 Confira o resultado em vídeo (link abaixo) e me diga o que acham! Todo o código está disponível no GitHub para quem quiser explorar.
 
-# 📩 Sugestões ou parcerias? Vamos conversar! brasilbranca25@gmail.com
-# hospedagem: https://site-barbearia-borcelle.vercel.app/
+ 📩 Sugestões ou parcerias? Vamos conversar! brasilbranca25@gmail.com
+ hospedagem: https://site-barbearia-borcelle.vercel.app/

@@ -1,0 +1,221 @@
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .modal {
+    font-size: 15px;
+  }
+  .modal h5 {
+    font-size: 20px;
+  }
+  .modal .btn {
+    font-size: 20px;
+  }
+
+  .nav .container {
+    margin-top: 1%;
+  }
+  .btn-login {
+    background: #d4af37;
+    color: #1a1a1a;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s;
+  }
+  #senha {
+    margin-top: 20px !important;
+  }
+  .servicos h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 2.5rem;
+    color: #1a1a1a;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    position: relative;
+    padding-bottom: 10px;
+  }
+
+  .servicos h2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background: #c28800;
+  }
+
+  .funcionarios h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 2.5rem;
+    color: #1a1a1a;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    position: relative;
+    padding-bottom: 10px;
+  }
+
+  .funcionarios h2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background: #c28800;
+  }
+
+  #agendar h2 {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 2.5rem;
+    color: #1a1a1a;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    position: relative;
+    padding-bottom: 10px;
+  }
+
+  #agendar h2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background: #c28800;
+  }
+  body {
+    width: 100%;
+    background-color: #f5f5f5;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+  }
+  #mainSlider {
+    margin-top: 0;
+  }
+  nav {
+    z-index: 1;
+  }
+  .logo,
+  li {
+    transform: translateY(-20px);
+  }
+  #logo {
+    margin-top: 10px;
+    width: 90px;
+  }
+
+  .row {
+    margin: 0;
+  }
+  .funcionarios .col-md-3 {
+    width: 30vw;
+    height: auto !important;
+  }
+
+  .servicos {
+    margin-top: 20%;
+  }
+  .servicos .col-md-3 {
+    height: 150px;
+  }
+
+  .servicos h2 {
+    font-size: 35px;
+  }
+  .servicos h4 {
+    margin-top: -30px;
+    font-size: 20px;
+  }
+  .servicos p {
+    font-size: 15px;
+  }
+  .container {
+    padding: 70px 0px;
+  }
+
+  .servicos .container {
+    margin-top: -20%;
+  }
+
+  .funcionarios {
+    margin-top: 10%;
+    height: 1000px;
+  }
+  .funcionarios .container {
+    margin-top: -5%;
+  }
+  .funcionarios .col-md-3 {
+    width: 25vw;
+  }
+  .funcionarios img {
+    width: 25vw;
+  }
+  .funcionarios p {
+    font-size: 15px;
+  }
+  .funcionarios .col-md-3 {
+    height: 50vh;
+    height: 320px;
+  }
+  .funcionarios h2 {
+    font-size: 35px;
+  }
+  #profissional {
+    width: 40vw;
+    font-size: 15px;
+  }
+  #agendar .agend-btn {
+    margin-left: 10%;
+    font-size: 15px;
+  }
+
+  #agendar #cancelar {
+    height: 50px;
+    border-radius: 5px;
+    background-color: #000;
+    color: #c28800;
+    border: 2px solid #c28800;
+    width: 30vw;
+    margin: 2% 0 0 -12%;
+    font-size: 15px;
+  }
+  #btn_next,
+  #btn_prev {
+    width: 15vw;
+    height: 70px;
+    background-color: #000;
+    color: #c28800;
+    border-color: #c28800;
+    font-size: 15px;
+    margin-top: -5%;
+  }
+
+  #agendar .form-control {
+    font-size: 15px;
+  }
+  #agendar h2 {
+    margin-top: 5%;
+    font-size: 35px;
+  }
+
+  .fade-in {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+
+  .fade-in.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

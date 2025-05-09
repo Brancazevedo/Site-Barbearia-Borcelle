@@ -1,0 +1,370 @@
+@media screen and (max-width: 768px) {
+  .modal {
+    font-size: 12px;
+  }
+  .modal h5 {
+    font-size: 17px;
+  }
+  .modal .btn {
+    font-size: 17px;
+  }
+
+  .servicos h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 2.5rem;
+    color: #1a1a1a;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    position: relative;
+    padding-bottom: 10px;
+  }
+
+  .servicos h2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background: #c28800;
+  }
+
+  .funcionarios h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 2.5rem;
+    color: #1a1a1a;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    position: relative;
+    padding-bottom: 10px;
+  }
+
+  .funcionarios h2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background: #c28800;
+  }
+
+  #agendar h2 {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 2.5rem;
+    color: #1a1a1a;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    position: relative;
+    padding-bottom: 10px;
+  }
+
+  #agendar h2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background: #c28800;
+  }
+  .fade-in {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+  .nav div.main_list ul {
+    flex-direction: column;
+    width: 50% !important;
+    height: 40% !important;
+    float: right;
+    bottom: 0;
+    background-color: #111;
+
+    background-position: center top;
+  }
+  .nav {
+    z-index: 10;
+  }
+  .nav a {
+    margin-bottom: -10%;
+  }
+  .logo {
+    transform: translateY(-30px);
+  }
+  .fade-in.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .servicos #corte,
+  .servicos #barba,
+  .servicos #capilar,
+  .servicos #combo {
+    width: 100%;
+    min-width: 0;
+    padding: 10px;
+  }
+
+  .funcionarios img {
+    width: 50vw;
+  }
+
+  #mainSlider .carousel-inner,
+  #mainSlider .carousel-item {
+    z-index: -1;
+    height: 70vh;
+    width: 100%;
+  }
+  .carousel-inner h2 {
+    margin-top: -15%;
+  }
+
+  .servicos {
+    margin-top: -15%;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+  }
+  i {
+    padding-bottom: 15px;
+  }
+  h4 {
+    color: #ffffff;
+
+    font-size: 50px;
+    margin-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+  .servicos #corte,
+  .servicos #barba,
+  .servicos #capilar,
+  .servicos #combo {
+    color: #c28800;
+    border: 1px solid #444444;
+    margin-top: 70px;
+    background-color: #3e2c23;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+
+    width: 35vw;
+    height: 170px !important;
+    padding: 10px;
+
+    border-radius: 20px;
+  }
+  .servicos .col-md-3 {
+    margin: auto;
+    display: flexbox;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .servicos i {
+    color: #c28800;
+    margin-bottom: 30px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin: 20px 0 0 0;
+    font-size: 35px !important;
+  }
+  .servicos h4 {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin: 10px 0 -10px 00px;
+    font-size: 25px;
+  }
+  .servicos p {
+    color: #f2f2f2;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  .servicos h2 {
+    font-size: 30px;
+    margin-top: 15%;
+  }
+  .funcionarios {
+    margin-top: auto;
+    height: 800px;
+    background-color: #f2f2f2;
+
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: -25%;
+  }
+  .funcionarios img {
+    margin-top: 15px;
+    border-radius: 20px;
+    width: 30vw;
+  }
+  .funcionarios .col-md-3 {
+    border: 2px solid #c28800;
+    border-radius: 20px;
+    width: 35vw;
+    height: 300px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+    margin-right: auto;
+  }
+  .funcionarios .col-md-3:hover {
+    background-color: rgba(62, 44, 35, 0.1);
+
+    transition: 0.5s;
+  }
+
+  .funcionarios .row {
+    padding: 0;
+  }
+
+  .funcionarios h4 {
+    font-size: 20px;
+  }
+  .funcionarios p {
+    color: #444444;
+    margin-top: -30px;
+    font-size: 15px;
+  }
+  .funcionarios h2 {
+    margin-top: -30px;
+    font-size: 30px;
+  }
+
+  #table-container {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .table-responsive {
+    padding-top: 60px;
+    margin-top: 60px;
+    margin: 0 auto;
+    max-width: 80%;
+  }
+  #schedule-body {
+    margin: 20px 0 0 10%;
+
+    width: 80%;
+    border-collapse: collapse;
+    text-align: center;
+  }
+
+  #agendar {
+    margin-bottom: 30px;
+  }
+
+  #agendar .agend-btn {
+    min-width: 30vw;
+    max-width: 40vw;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #000;
+    color: #c28800;
+    border: 2px solid #c28800;
+    display: flex;
+    margin: 2% 0 0 28%;
+    font-size: 15px;
+  }
+  #agendar #cancelar {
+    height: 50px;
+    border-radius: 5px;
+    background-color: #000;
+    color: #c28800;
+    border: 2px solid #c28800;
+    width: 70vw;
+    margin: 2% 0 0 22%;
+    font-size: 15px;
+  }
+
+  #semana {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  #semana h4 {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #btn:hover {
+    background-color: rgba(62, 44, 35, 0.1);
+  }
+
+  .formulario .form-control {
+    row-gap: 30px;
+    margin: 2% 0 0 15%;
+    max-width: 40vw;
+    border: 1px solid #d2b48c;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  }
+  .form-control:focus,
+  select:focus {
+    border-color: #c28800;
+    outline: none;
+  }
+
+  #profissional {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 15px;
+    width: 40vw;
+    height: 40px;
+    border-radius: 5px;
+    margin: 2% 0 0 15%;
+  }
+
+  h5 {
+    padding-top: 50px;
+
+    text-align: center;
+  }
+
+  #titulo {
+    font-size: 2rem;
+    color: #3e2c23;
+    margin-bottom: 20px;
+  }
+  #agendar .week-range {
+    display: none;
+  }
+  #btn_next,
+  #btn_prev {
+    width: 15vw;
+
+    font-size: 15px;
+    background-color: #000;
+    color: #c28800;
+    border-color: #c28800;
+  }
+
+  #agendar #cancelar {
+    max-width: 30vw;
+  }
+  #agendar {
+    margin-top: 30%;
+  }
+  #agendar h2 {
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,1071 @@
+@media screen and (min-width: 376px) and (max-width: 425px) {
+  .nav .container {
+    margin-top: -2%;
+  }
+
+  #mainSlider {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 20px;
+  }
+
+  #mainSlider .carousel-inner {
+    height: 150px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  #mainSlider .carousel-item {
+    transition: transform 1.5s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  #mainSlider .carousel-item {
+    height: 250px;
+    transition: transform 0.5s ease;
+  }
+
+  #mainSlider .carousel-item img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    object-position: center center;
+  }
+  #mainSlider .carousel-item:nth-child(1) img {
+    content: url("imagens/barbeariamobile.jpg");
+  }
+  #mainSlider .carousel-caption h2 {
+    display: inline-block;
+
+    margin-left: -20%;
+    font-family: "Roboto", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.8);
+    padding: 12px 35px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+    border-left: 4px solid #c28800;
+    position: relative;
+    animation: slideIn 1s ease-out;
+    box-sizing: border-box;
+    line-height: 1.2;
+    text-align: center !important;
+  }
+
+  .carousel-caption {
+    padding-bottom: 30px;
+  }
+
+  #mainSlider .carousel-caption h2:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+  }
+
+  #mainSlider .carousel-caption h2::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background: #c28800;
+    text-align: center !important;
+
+    margin-left: -20%;
+  }
+
+  .servicos .row {
+    display: flex;
+    flex-direction: column;
+    gap: 5px !important;
+    margin: 0 15px;
+  }
+
+  .servicos {
+    margin-top: 1px !important;
+  }
+  .servicos h2 {
+    justify-content: center;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 2.5rem;
+    color: #1a1a1a;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    position: relative;
+    padding-bottom: 10px;
+  }
+  .servicos h2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background: #c28800;
+  }
+  .servicos .col-md-3 {
+    width: 90% !important;
+    max-width: none !important;
+    margin: 5px 0 !important;
+    padding: 15px !important;
+    border-radius: 0;
+    box-shadow: none;
+    border-bottom: 2px solid #eee;
+    height: 120px !important;
+  }
+
+  .servicos [class*="col-"] {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  .servicos h4 {
+    margin: -5px 0 !important;
+    font-size: 18px;
+  }
+
+  .servicos p {
+    margin-top: -20px;
+    font-size: 16px;
+    font-size: 1.1rem;
+
+    font-weight: bold;
+  }
+
+  .servicos i {
+    margin-top: 20px;
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+
+  .servicos h2.text-center {
+    margin-top: -100px;
+    font-size: 25px;
+    color: #000;
+  }
+  .funcionarios {
+    padding: 60px 0;
+  }
+
+  .funcionarios h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 2.5rem;
+    color: #1a1a1a;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    position: relative;
+    padding-bottom: 10px;
+  }
+
+  .funcionarios h2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background: #c28800;
+  }
+
+  .funcionarios .col-md-3:hover {
+    transform: translateY(-5px);
+  }
+
+  .funcionarios h4 {
+    font-size: 1.4rem;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  .funcionarios .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .funcionarios .col-md-3 {
+    width: 70% !important;
+
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+
+  .funcionarios img {
+    width: 220px !important;
+    height: 170px;
+    border: 2px solid #c28800;
+  }
+  .funcionarios p {
+    font-size: 1rem;
+    color: #666;
+    padding: 0 15px;
+    line-height: 1.5;
+  }
+
+  #agendar .container {
+    margin-top: 240%;
+  }
+
+  #agendar .form-control,
+  #agendar .form-select {
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 12px 20px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+
+  #agendar .form-select {
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3csvg...");
+    background-position: right 1rem center;
+    background-repeat: no-repeat;
+  }
+
+  select {
+    width: 350px;
+  }
+  #agendar .btn-primary {
+    background-color: #c28800;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    margin-top: 15px;
+  }
+
+  #profissional {
+    width: 100% !important;
+    max-width: 350px !important;
+    margin-left: -1px !important;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 7px !important;
+    margin-top: 7px !important;
+  }
+  #agendar .formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  table {
+    overflow-x: hidden;
+  }
+  .table-responsive {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+  }
+  .week-nav {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .week-nav button {
+    width: 100%;
+    margin: -10px 0;
+  }
+
+  .week-nav h4.week-range {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+
+  .table-responsive {
+    overflow-x: auto;
+  }
+
+  .table th,
+  .table td {
+    font-size: 12px;
+    text-align: center;
+    padding: 6px;
+  }
+
+  .table td .btn {
+    font-size: 11px;
+    padding: 5px 8px;
+    margin: 2px;
+  }
+
+  #agendar .agend-btn {
+    width: 250px !important;
+    max-width: 200px !important;
+    margin-left: -3% !important;
+  }
+
+  input.cancel-btn#cancelar {
+    width: 250px !important;
+    max-width: 200px !important;
+    display: block;
+    margin-left: -10px !important;
+  }
+  #btn {
+    width: 40vw;
+    margin-bottom: -15%;
+  }
+  #btn_next,
+  #btn_prev {
+    width: 45vw !important;
+    margin-top: 20%;
+    margin-left: -4%;
+    background-color: #000;
+    color: #c28800;
+    border-color: #c28800;
+  }
+  h5 {
+    margin: 10px auto;
+    font-size: 10px;
+    text-align: center;
+    max-width: 100%;
+    word-break: break-word;
+  }
+
+  #titulo,
+  #agendar h5 {
+    justify-content: center;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 2.5rem;
+    color: #1a1a1a;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    position: relative;
+    padding-bottom: 10px;
+  }
+  #titulo::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background: #c28800;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  #name a,
+  #logo a {
+    margin-top: -20px !important;
+  }
+  .nav .container {
+    margin-top: -5%;
+  }
+  #mainSlider {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 20px;
+  }
+
+  #mainSlider .carousel-inner {
+    height: 150px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  #mainSlider .carousel-item {
+    transition: transform 1.5s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  #mainSlider .carousel-item {
+    height: 250px;
+    transition: transform 0.5s ease;
+  }
+
+  #mainSlider .carousel-item img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    object-position: center center;
+  }
+  #mainSlider .carousel-item:nth-child(1) img {
+    content: url("imagens/barbeariamobile.jpg");
+  }
+  #mainSlider .carousel-caption h2 {
+    display: inline-block;
+    width: auto;
+
+    margin-left: -30%;
+    font-family: "Roboto", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.8);
+    padding: 12px 35px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+    border-left: 4px solid #c28800;
+    position: relative;
+    animation: slideIn 1s ease-out;
+    box-sizing: border-box;
+    line-height: 1.2;
+    text-align: center !important;
+  }
+
+  .carousel-caption {
+    padding-bottom: 30px;
+  }
+
+  #mainSlider .carousel-caption h2:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+  }
+
+  #mainSlider .carousel-caption h2::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background: #c28800;
+    text-align: center !important;
+
+    margin-left: -20%;
+  }
+
+  .servicos .row {
+    display: flex;
+    flex-direction: column;
+    gap: 5px !important;
+    margin: 0 15px;
+  }
+
+  .servicos {
+    margin-top: 1px !important;
+  }
+  .servicos h2 {
+    justify-content: center;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 2.5rem;
+    color: #1a1a1a;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    position: relative;
+    padding-bottom: 10px;
+  }
+  .servicos h2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background: #c28800;
+  }
+  .servicos .col-md-3 {
+    width: 90% !important;
+    max-width: none !important;
+    margin: 5px 0 !important;
+    padding: 15px !important;
+    border-radius: 0;
+    box-shadow: none;
+    border-bottom: 2px solid #eee;
+    height: 120px !important;
+  }
+
+  .servicos [class*="col-"] {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  .servicos h4 {
+    margin: -5px 0 !important;
+    font-size: 18px;
+  }
+
+  .servicos p {
+    margin-top: -20px;
+    font-size: 16px;
+    font-size: 1.1rem;
+
+    font-weight: bold;
+  }
+
+  .servicos i {
+    margin-top: 20px;
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+
+  .servicos h2.text-center {
+    margin-top: -100px;
+    font-size: 25px;
+    color: #000;
+  }
+  .funcionarios {
+    padding: 60px 0;
+  }
+
+  .funcionarios h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 2.5rem;
+    color: #1a1a1a;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    position: relative;
+    padding-bottom: 10px;
+  }
+
+  .funcionarios h2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background: #c28800;
+  }
+
+  .funcionarios .col-md-3:hover {
+    transform: translateY(-5px);
+  }
+
+  .funcionarios h4 {
+    font-size: 1.4rem;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  .funcionarios .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .funcionarios .col-md-3 {
+    width: 70% !important;
+
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+
+  .funcionarios img {
+    width: 220px !important;
+    height: 170px;
+    border: 2px solid #c28800;
+  }
+  .funcionarios p {
+    font-size: 1rem;
+    color: #666;
+    padding: 0 15px;
+    line-height: 1.5;
+  }
+
+  #agendar .container {
+    margin-top: 240%;
+  }
+
+  #agendar .form-control,
+  #agendar .form-select {
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 12px 20px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+
+  #agendar .form-select {
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3csvg...");
+    background-position: right 1rem center;
+    background-repeat: no-repeat;
+  }
+
+  select {
+    width: 350px;
+  }
+  #agendar .btn-primary {
+    background-color: #c28800;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    margin-top: 15px;
+  }
+
+  #profissional {
+    width: 100% !important;
+    max-width: 350px !important;
+    margin-left: -1px !important;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 7px !important;
+    margin-top: 7px !important;
+  }
+  #agendar .formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  table {
+    overflow-x: hidden;
+  }
+  .table-responsive {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+  }
+  .week-nav {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .week-nav button {
+    width: 100%;
+    margin: -10px 0;
+  }
+
+  .week-nav h4.week-range {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+
+  .table-responsive {
+    overflow-x: auto;
+  }
+
+  .table th,
+  .table td {
+    font-size: 12px;
+    text-align: center;
+    padding: 6px;
+  }
+
+  .table td .btn {
+    font-size: 11px;
+    padding: 5px 8px;
+    margin: 2px;
+  }
+
+  #agendar .agend-btn {
+    width: 250px !important;
+    max-width: 200px !important;
+    margin-left: -3% !important;
+  }
+
+  input.cancel-btn#cancelar {
+    width: 250px !important;
+    max-width: 200px !important;
+    display: block;
+    margin-left: -10px !important;
+  }
+  #btn {
+    width: 40vw;
+    margin-bottom: -15%;
+  }
+  #btn_next,
+  #btn_prev {
+    width: 45vw !important;
+    margin-top: 20%;
+    margin-left: -4%;
+    background-color: #000;
+    color: #c28800;
+    border-color: #c28800;
+  }
+  h5 {
+    margin: 10px auto;
+    font-size: 10px;
+    text-align: center;
+    max-width: 100%;
+    word-break: break-word;
+  }
+
+  #titulo,
+  #agendar h5 {
+    justify-content: center;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 2.5rem;
+    color: #1a1a1a;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    position: relative;
+    padding-bottom: 10px;
+  }
+  #titulo::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background: #c28800;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #name a,
+  #logo a {
+    margin-top: -20px !important;
+  }
+  .nav .container {
+    margin-top: -5%;
+  }
+  #mainSlider {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 20px;
+  }
+
+  #mainSlider .carousel-inner {
+    height: 150px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  #mainSlider .carousel-item {
+    transition: transform 1.5s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  #mainSlider .carousel-item {
+    height: 250px;
+    transition: transform 0.5s ease;
+  }
+
+  #mainSlider .carousel-item img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    object-position: center center;
+  }
+  #mainSlider .carousel-item:nth-child(1) img {
+    content: url("imagens/barbeariamobile.jpg");
+  }
+  #mainSlider .carousel-caption h2 {
+    display: inline-block;
+    width: auto;
+
+    margin-left: -50%;
+    font-family: "Roboto", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.8);
+    padding: 12px 35px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+    border-left: 4px solid #c28800;
+    position: relative;
+    animation: slideIn 1s ease-out;
+    box-sizing: border-box;
+    line-height: 1.2;
+    text-align: center !important;
+  }
+
+  .carousel-caption {
+    padding-bottom: 30px;
+  }
+
+  #mainSlider .carousel-caption h2:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+  }
+
+  #mainSlider .carousel-caption h2::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background: #c28800;
+    text-align: center !important;
+
+    margin-left: -20%;
+  }
+
+  .servicos .row {
+    display: flex;
+    flex-direction: column;
+    gap: 5px !important;
+    margin: 0 15px;
+  }
+
+  .servicos {
+    margin-top: 1px !important;
+  }
+  .servicos h2 {
+    justify-content: center;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 2.5rem;
+    color: #1a1a1a;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    position: relative;
+    padding-bottom: 10px;
+  }
+  .servicos h2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background: #c28800;
+  }
+  .servicos .col-md-3 {
+    width: 90% !important;
+    max-width: none !important;
+    margin: 5px 0 !important;
+    padding: 15px !important;
+    border-radius: 0;
+    box-shadow: none;
+    border-bottom: 2px solid #eee;
+    height: 120px !important;
+  }
+
+  .servicos [class*="col-"] {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  .servicos h4 {
+    margin: -5px 0 !important;
+    font-size: 18px;
+  }
+
+  .servicos p {
+    margin-top: -20px;
+    font-size: 16px;
+    font-size: 1.1rem;
+
+    font-weight: bold;
+  }
+
+  .servicos i {
+    margin-top: 20px;
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+
+  .servicos h2.text-center {
+    margin-top: -100px;
+    font-size: 25px;
+    color: #000;
+  }
+  .funcionarios {
+    padding: 60px 0;
+  }
+
+  .funcionarios h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 2.5rem;
+    color: #1a1a1a;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    position: relative;
+    padding-bottom: 10px;
+  }
+
+  .funcionarios h2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background: #c28800;
+  }
+
+  .funcionarios .col-md-3:hover {
+    transform: translateY(-5px);
+  }
+
+  .funcionarios h4 {
+    font-size: 1.4rem;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  .funcionarios .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .funcionarios .col-md-3 {
+    width: 70% !important;
+
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+
+  .funcionarios img {
+    width: 220px !important;
+    height: 170px;
+    border: 2px solid #c28800;
+  }
+  .funcionarios p {
+    font-size: 1rem;
+    color: #666;
+    padding: 0 15px;
+    line-height: 1.5;
+  }
+
+  #agendar .container {
+    margin-top: 300%;
+  }
+
+  #agendar .form-control,
+  #agendar .form-select {
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 12px 20px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+
+  #agendar .form-select {
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3csvg...");
+    background-position: right 1rem center;
+    background-repeat: no-repeat;
+  }
+
+  select {
+    width: 350px;
+  }
+  #agendar .btn-primary {
+    background-color: #c28800;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    margin-top: 15px;
+  }
+
+  #profissional {
+    width: 100% !important;
+    max-width: 350px !important;
+    margin-left: -1px !important;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 7px !important;
+    margin-top: 7px !important;
+  }
+  #agendar .formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  table {
+    overflow-x: hidden;
+  }
+  .table-responsive {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+  }
+  .week-nav {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .week-nav button {
+    width: 100%;
+    margin: -10px 0;
+  }
+
+  .week-nav h4.week-range {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+
+  .table-responsive {
+    overflow-x: auto;
+  }
+
+  .table th,
+  .table td {
+    font-size: 12px;
+    text-align: center;
+    padding: 6px;
+  }
+
+  .table td .btn {
+    font-size: 11px;
+    padding: 5px 8px;
+    margin: 2px;
+  }
+
+  #agendar .agend-btn {
+    width: 250px !important;
+    max-width: 200px !important;
+    margin-left: -3% !important;
+  }
+
+  input.cancel-btn#cancelar {
+    width: 250px !important;
+    max-width: 200px !important;
+    display: block;
+    margin-left: -10px !important;
+  }
+  #btn {
+    width: 40vw;
+    margin-bottom: -15%;
+  }
+  #btn_next,
+  #btn_prev {
+    width: 45vw !important;
+    margin-top: 20%;
+    margin-left: -4%;
+    background-color: #000;
+    color: #c28800;
+    border-color: #c28800;
+  }
+  h5 {
+    margin: 10px auto;
+    font-size: 10px;
+    text-align: center;
+    max-width: 100%;
+    word-break: break-word;
+  }
+
+  #titulo,
+  #agendar h5 {
+    justify-content: center;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 2.5rem;
+    color: #1a1a1a;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    position: relative;
+    padding-bottom: 10px;
+  }
+  #titulo::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background: #c28800;
+  }
+}

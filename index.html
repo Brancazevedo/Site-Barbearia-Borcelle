@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <link rel="stylesheet" href="css/css.css" />
+    <link rel="stylesheet" href="css/cell.css" />
+    <link rel="stylesheet" href="css/tablet.css" />
+     <link rel="stylesheet" href="css/laptop.css" />
+     <link rel="stylesheet" href="css/laptop_large.css" />
+     <link rel="stylesheet" href="css/navbar.css" />
+   
+   
+    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+
+    
+
+   
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+
+    
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+
+   
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/inputmask/5.0.8/inputmask.min.js"></script>
+      
+
+ 
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Document</title>
+  </head>
+  <body>
+   
+    <header id="header">
+
+ 
+ <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a href="#" id="name">Barbearia Borcelle</a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="#header" id="sobre">topo</a></li>
+                    <li><a href="#servico" id="servicos">Servicos</a></li>
+                    <li><a href="#funcionarios" id="time">Funcionarios</a></li>
+                    <li><a href="#agendar" id="agenda">Agendar</a></li>
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
+</div>
+
+         
+      
+    </header>
+
+  
+<main>  
+
+<div class="container-fluid">
+    
+         
+ 
+    <div id="mainSlider" class="carousel slide" data-bs-ride="carousel">
+<div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="imagens/barbearia5.jpg" class="d-block w-100" alt="Slide 1" />
+        <div class="carousel-caption">
+            <h2 >Cortes precisos, agendamentos rapidos</h2>
+            
+        </div>
+    </div>
+    <div class="carousel-item">
+        <img src="imagens/barbearia6.jpg" class="d-block w-100" alt="Slide 2" />
+        <div class="carousel-caption">
+        <h2 >Cortes precisos, agendamentos rapidos</h2>
+            </div>
+    </div>
+    <div class="carousel-item">
+        <img src="imagens/barbearia7.jpg" class="d-block w-100" alt="Slide 3" />
+        <div class="carousel-caption">
+        <h2>Cortes precisos, agendamentos rapidos</h2>
+            </div>
+    </div>
+     <div class="carousel-item">
+        <img src="imagens/barbearia8.jpg" class="d-block w-100" alt="Slide 4" />
+        <div class="carousel-caption">
+        <h2>Cortes precisos, agendamentos rapidos</h2>
+            </div>
+    </div>
+</div>
+
+
+
+
+
+<!--servicos-->
+<div class="servicos fade-in" id="servico" >
+<div class="container" >
+    <div class="row">
+        <h2 class="text-center">Nossos serviços</h2>
+    <div class="col-md-3 text-center" id="corte">
+      <i class="fa-solid fa-scissors"></i>
+      <h4>Corte de cabelo</h4>
+      <p>R$35,00</p>
+    </div>
+    <div class="col-md-3 text-center" id="barba">
+      <i class="fa-solid fa-scissors"></i>
+      <h4>Cortes de barba</h4>
+      <p>R$40,00</p>
+    </div>
+    <div class="col-md-3 text-center "id="combo">
+      <i class="fa-solid fa-hand-holding-dollar"></i>
+      <h4>Combos</h4>
+      <p>R$35,00</p>
+    </div>
+    <div class="col-md-3 text-center " id="capilar">
+      <i class="fa-solid fa-user"></i>
+      <h4>Tratamentos capilares</h4>
+      <p>R$50,00</p>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="funcionarios fade-in" id="funcionarios">
+  <div class="container">
+    <div class="row">
+      <h2 class="text-center">Nossos Funcionários</h2>
+
+      <div class="col-md-3 text-center fade-in">
+        <img src="imagens/barbeiro1.jpg" alt="Barbeiro 1" class="img-fluid"
+             data-bs-toggle="modal" data-bs-target="#profModalJohn" />
+        <h4>John Doe</h4>
+        <p>Especialista em cortes modernos</p>
+      </div>
+
+      <div class="col-md-3 text-center fade-in">
+        <img src="imagens/cabeleleiro2.jpg" alt="Pedro" class="img-fluid"
+             data-bs-toggle="modal" data-bs-target="#profModalPedro" />
+        <h4>Pedro</h4>
+        <p>Especialista em barbas modernas</p>
+      </div>
+
+      <div class="col-md-3 text-center fade-in">
+        <img src="imagens/cabeleleira.jpg" alt="Marcia" class="img-fluid"
+             data-bs-toggle="modal" data-bs-target="#profModalMarcia" />
+        <h4>Marcia</h4>
+        <p>Especialista em combos de cabelos e barba</p>
+      </div>
+
+      <div class="col-md-3 text-center fade-in">
+        <img src="imagens/cabeleleira1.jpg" alt="Gabrielle" class="img-fluid"
+             data-bs-toggle="modal" data-bs-target="#profModalGabrielle" />
+        <h4>Gabrielle</h4>
+        <p>Especialista em tratamentos capilares</p>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!--agendamentos-->
+<div id="agendar" class="agendar fade-in">
+    <div class="container">
+        <div class="col-md-12">
+        <div class="row">
+            <h2 class=" fade-in" id="titulo"> Realize seu agendamento</h2>
+            <div class="col-md-6 text-center">
+                <form action="" class="formulario fade-in">
+                    <input type="text" class="form-control" id="name-input" placeholder="Seu nome" required />
+                    <input type="text" class="form-control" id="tel-input" placeholder="Seu telefone" required />
+                    <select id="profissional" class=" prof fade-in">
+  <option value="opcao1">John - cortes</option>
+  <option value="opcao2" selected>Pedro - Barbas</option>
+  <option value="opcao3">Marcia - combos</option>
+   <option value="opcao4">Gabrielle - tratamentos</option>
+   </option>
+</select>
+                    <input type="date" class="form-control " id="date-input" placeholder="qual data" required />
+                    <input type="time" class="form-control" id="time-input" placeholder="qual horario" required />
+                    <input type="button"  class="agend-btn" value="Enviar informações ">
+                    <input type="button" class="cancel-btn" id="cancelar" value="Realizar Cancelamento" data-bs-toggle="modal" data-bs-target="#cancelamentoModal">
+
+                    
+                </form></div>
+                <div class="col-md-6 text-center fade-in" id="semana">
+ <div class="week-nav d-flex justify-content-center align-items-center flex-nowrap gap-2 mb-4">
+  <button class="btn btn-outline-primary semana-btn prev-week" id="btn_prev">&lt; Semana Anterior</button>
+  
+  <button class="btn btn-outline-primary semana-btn next-week" id="btn_next">Próxima Semana &gt;</button>
+</div></div></div>
+<h5 class="fade-in"> Tabela de horarios do profissional selecionado acima</h5>
+  <!-- Tabela de horários -->
+  <div class="table-responsive fade-in">
+    <table class="table table-bordered">
+      <thead class="thead-dark">
+        <tr>
+          <th >Dia</th>
+          <th>Horário da semana</th>
+        </tr>
+      </thead>
+      <tbody id="schedule-body">
+    
+      </tbody>
+    </table></div>
+  
+
+
+
+</div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+</main><div class="modal fade" id="appointmentModal" tabindex="-1" aria-labelledby="appointmentModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header bg-primary text-white">
+        <h5 class="modal-title" id="appointmentModalLabel">Detalhes do Agendamento</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Fechar"></button>
+      </div>
+      <div class="modal-body">
+        <p><strong>Data:</strong> <span id="modal-date"></span></p>
+        <p><strong>Horário:</strong> <span id="modal-time"></span></p>
+        <p><strong>Nome:</strong> <span id="modal-name"></span></p>
+        <p><strong>Telefone:</strong> <span id="modal-tel"></span></p>
+       
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="profModalJohn" tabindex="-1" aria-labelledby="profModalLabelJohn" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header bg-primary text-white">
+        <h5 class="modal-title" id="profModalLabelJohn">Detalhes do profissional</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Fechar"></button>
+      </div>
+      <div class="modal-body">
+        <p><strong>Nome:</strong> John Doe</p>
+        <p><strong>Especialidade:</strong> Cortes modernos</p>
+        <p><strong>Sobre:</strong> Com mais de 10 anos de experiência, John é conhecido por transformar o visual dos clientes com cortes ousados e modernos. Sempre atualizado com as últimas tendências, ele é a escolha perfeita para quem busca estilo e atitude.</p>
+        <p><strong>Telefone:</strong> (11) 12345-6789</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal para Pedro -->
+<div class="modal fade" id="profModalPedro" tabindex="-1" aria-labelledby="profModalLabelPedro" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header bg-primary text-white">
+        <h5 class="modal-title" id="profModalLabelPedro">Detalhes do profissional</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Fechar"></button>
+      </div>
+      <div class="modal-body">
+        <p><strong>Nome:</strong> Pedro</p>
+        <p><strong>Especialidade:</strong> Barbas modernas</p>
+        <p><strong>Sobre:</strong> Pedro é o mestre das barbas. Cuidadoso e detalhista, domina técnicas contemporâneas de modelagem e design. Seu atendimento garante uma barba impecável e cheia de personalidade.</p>
+        <p><strong>Telefone:</strong> (11) 12345-6789</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal para Marcia -->
+<div class="modal fade" id="profModalMarcia" tabindex="-1" aria-labelledby="profModalLabelMarcia" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header bg-primary text-white">
+        <h5 class="modal-title" id="profModalLabelMarcia">Detalhes do profissional</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Fechar"></button>
+      </div>
+      <div class="modal-body">
+        <p><strong>Nome:</strong> Marcia</p>
+        <p><strong>Especialidade:</strong> Combos de cabelos e barba</p>
+        <p><strong>Sobre:</strong> Versátil e criativa, Marcia oferece um atendimento completo que une estilo, praticidade e cuidado. Ideal para quem quer renovar o visual com harmonia entre corte e barba.</p>
+        <p><strong>Telefone:</strong> (11) 12345-6789</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal para Gabrielle -->
+<div class="modal fade" id="profModalGabrielle" tabindex="-1" aria-labelledby="profModalLabelGabrielle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header bg-primary text-white">
+        <h5 class="modal-title" id="profModalLabelGabrielle">Detalhes do profissional</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Fechar"></button>
+      </div>
+      <div class="modal-body">
+        <p><strong>Nome:</strong> Gabrielle</p>
+        <p><strong>Especialidade:</strong> Tratamentos capilares</p>
+        <p><strong>Sobre:</strong> Gabrielle é apaixonada por saúde capilar. Cuida de cada fio com atenção e carinho, oferecendo tratamentos personalizados que revitalizam os cabelos e destacam a beleza natural.</p>
+        <p><strong>Telefone:</strong> (11) 12345-6789</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="cancelamentoModal" tabindex="-1" aria-labelledby="cancelamentoModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header bg-danger text-white">
+        <h5 class="modal-title" id="cancelamentoModalLabel">Solicitação de Cancelamento</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Fechar"></button>
+      </div>
+      <div class="modal-body">
+        <p>Para realizar o cancelamento do seu agendamento, por favor clique no botão abaixo para nos enviar uma mensagem no WhatsApp com seus dados.</p>
+        <p><strong>Informe:</strong> seu nome completo, data e horário do agendamento.</p>
+      </div>
+      <div class="modal-footer">
+        <a href="https://wa.me/11123456789?text=Olá,%20gostaria%20de%20cancelar%20meu%20agendamento.%20Meus%20dados%20são:%20(Nome,%20data,%20horário)." target="_blank" class="btn btn-success">
+          Enviar pelo WhatsApp
+        </a>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script src="js.js"></script>
+<script src="login.js"></script>
+  <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script>
+
+
+  </body>
+</html>

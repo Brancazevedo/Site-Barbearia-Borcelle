@@ -1,0 +1,229 @@
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+  .modal {
+    font-size: 15px;
+  }
+  .modal h5 {
+    font-size: 20px;
+  }
+  .modal .btn {
+    font-size: 20px;
+  }
+  body {
+    width: 100%;
+    background-color: #f5f5f5;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+  }
+
+  .nav {
+    z-index: 1;
+    position: fixed;
+  }
+
+  .servicos h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 2.5rem;
+    color: #1a1a1a;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    position: relative;
+    padding-bottom: 10px;
+  }
+
+  .servicos h2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background: #c28800;
+  }
+
+  .funcionarios h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 2.5rem;
+    color: #1a1a1a;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    position: relative;
+    padding-bottom: 10px;
+  }
+
+  .funcionarios h2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background: #c28800;
+  }
+
+  #agendar h2 {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 2.5rem;
+    color: #1a1a1a;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    position: relative;
+    padding-bottom: 10px;
+  }
+
+  #agendar h2::after {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background: #c28800;
+  }
+  .fade-in {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+
+  .fade-in.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  #profissional {
+    width: 650px;
+    height: 50px;
+    font-size: 22px;
+  }
+
+  #agendar .form-control {
+    width: 650px;
+    font-size: 22px;
+  }
+
+  #agendar #cancelar {
+    height: 50px;
+    border-radius: 5px;
+    background-color: #000;
+    color: #c28800;
+    border: 2px solid #c28800;
+    width: 30vw;
+    margin: 2% 0 0 0 !important;
+    font-size: 22px;
+  }
+  #agendar .agend-btn {
+    margin-left: 35px !important;
+    font-size: 22px;
+  }
+  #btn_next,
+  #btn_prev {
+    width: 15vw;
+    height: 7vh;
+    margin-bottom: 5%;
+    background-color: #000;
+    color: #c28800;
+    border-color: #c28800;
+    font-size: 22px;
+    transform: translateX(150px);
+  }
+
+  .row {
+    margin: 0;
+  }
+  .funcionarios .col-md-3 {
+    width: 25vw;
+    height: 10vh;
+  }
+  .servicos .container {
+    margin-top: -20%;
+  }
+  .servicos h2 {
+    margin-top: 35%;
+    font-size: 40px;
+  }
+
+  .servicos .container {
+    margin-top: -20%;
+  }
+
+  .servicos p {
+    font-size: 20px;
+  }
+  .servicos h4,
+  .servicos i {
+    font-size: 25px;
+  }
+  #servico h4 {
+    margin-top: -20px !important;
+  }
+  .servicos .col-md-3 {
+    min-height: 200px;
+    max-height: 20vh;
+  }
+  .container {
+    padding: 70px 0px;
+  }
+
+  .servicos .container {
+    margin-top: -20%;
+  }
+
+  .funcionarios {
+    margin-top: 10%;
+    height: 1200px;
+  }
+  .funcionarios .container {
+    margin-top: -5%;
+  }
+  .funcionarios .col-md-3 {
+    width: 25vw;
+    height: 450px;
+  }
+  .funcionarios h4 {
+    font-size: 25px;
+  }
+  .funcionarios p {
+    font-size: 19px;
+  }
+  .funcionarios img {
+    width: 25vw;
+  }
+  .funcionarios h2 {
+    font-size: 40px;
+  }
+
+  #semana h4 {
+    transform: translateX(150px);
+    width: 200px;
+  }
+  .table th,
+  .table td {
+    font-size: 25px;
+    text-align: center;
+  }
+  #agendar h2 {
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #agrndar h5 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .fade-in {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+
+  .fade-in.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
